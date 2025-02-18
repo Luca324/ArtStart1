@@ -1,0 +1,49 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.ide
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.nuspec
+**/packages/*
+**/project.lock.json
+project.lock.json
+
+# DLLs
+*.dll
+
+# Debugging files
+*.pdb
+*.mdb
+
+# Cache
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
