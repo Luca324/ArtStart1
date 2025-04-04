@@ -22,8 +22,22 @@ namespace ArtStart
 
         }
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        { }
+        private void colorMixToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // Закрываем приложение, когда Form2 закрыта
+            FormUtils._form1 = FormUtils.ShowForm<Form1>(() => new Form1());
+
+        }
+
+        private void challengesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormUtils._form2 = FormUtils.ShowForm<Form2>(() => new Form2());
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

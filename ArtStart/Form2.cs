@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿
 
 namespace ArtStart
 {
@@ -28,7 +20,17 @@ namespace ArtStart
         }
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit(); // Закрываем приложение, когда Form2 закрыта
+            //Application.Exit(); // Закрываем приложение, когда Form2 закрыта
+        }
+
+        private void colorMixToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormUtils._form1 = FormUtils.ShowForm<Form1>(() => new Form1());
+        }
+
+        private void paintToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormUtils._form3 = FormUtils.ShowForm<Form3>(() => new Form3());
         }
     }
 }

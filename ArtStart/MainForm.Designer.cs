@@ -84,7 +84,8 @@
             Controls.Add(label1);
             Controls.Add(menuStrip2);
             Name = "MainForm";
-            Text = "MainForm";
+            RightToLeftLayout = true;
+            Text = "С чего начнём?";
             Load += MainForm_Load;
             menuStrip2.ResumeLayout(false);
             menuStrip2.PerformLayout();

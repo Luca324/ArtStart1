@@ -77,7 +77,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Color Mix";
             Load += Form1_Load;
             menuStrip2.ResumeLayout(false);
             menuStrip2.PerformLayout();
